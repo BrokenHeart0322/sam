@@ -1,0 +1,96 @@
+.cheeper{
+    background-color: rgba(246, 243, 241, 1);
+    text-align: center;
+    padding: 5rem 0;
+    
+    &__title{
+        font-size: 33px;
+        font-weight: normal;
+    }
+    .cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 11px;
+    }    
+
+    &__card{
+        width: 35%;
+        background-color: white;
+
+        &__con{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            &__box{
+                background-color:rgba(246, 243, 241, 1) ;
+                width: 50%;
+                img{
+                    width: 100%;
+                }
+                h3{
+                    span{
+                        font-size: 20px;
+                        font-weight: 600;
+                        text-decoration:line-through;
+                        opacity: 0.5;
+                    }
+                }
+            }
+            &__box2{
+                background-color:rgba(246, 243, 241, 1) ;
+                width: 50%;
+                margin-top: 18%;
+                img{
+                    width: 100%;
+                }
+                h3{
+                    span{
+                        font-size: 20px;
+                        font-weight: 600;
+                        text-decoration:line-through;
+                        opacity: 0.5;
+                    }
+                }
+            }
+        }
+        &__1{
+            background-color: white;
+            color:rgba(182, 155, 137, 1) ;
+            font-size: 30px;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 36px;  
+            border-top: 1px solid rgba(182, 155, 137, 1);
+            background-color:rgba(246, 243, 241, 1);
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 11px;
+
+            .sp1{
+                color: rgba(248, 115, 175, 1);
+                font-size: 14px;
+                font-weight: normal;
+            }
+            .sp2{
+                font-size: 20px;
+                font-weight: 600;
+                text-decoration:line-through;
+                opacity: 0.5;
+            }
+            a{
+                text-decoration: none;
+                color: whitesmoke;
+                background-color: rgba(41, 41, 51, 1);
+                padding: 15px 25px;
+                border-radius: 25px;
+                font-size: 14px;
+                font-weight: normal;
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.hero{
+    display: flex;
+
+    &__card{
+        line-height: 3.5rem;
+        padding: 7rem 3rem 0 5rem;
+        background-color: rgba(41, 41, 51, 1);
+
+        h1{
+            color: whitesmoke;
+            font-size: 32px;
+        }
+        p{
+            color: rgba(246, 243, 241, 0.7);
+            font-size: 15px;
+            font-weight: 300;
+        }
+        &__btn{ 
+            text-decoration: none;
+            color: whitesmoke;
+            font-size: 14px;
+            background-color: rgba(182, 155, 137, 1);
+            padding: 11px 22px;
+            border-radius: 25px;
+        }
+        &__btn2{
+            display: inline-block;
+            text-decoration: none;
+            font-size: 22px;
+            color: black;
+            background-color: whitesmoke;
+            padding: 0px 22px;
+            margin-left: 105%;
+            border-radius: 50%;
+        }
+    }
+    img{
+        max-width: 70%;
+        z-index: -1;
+    }
+}

@@ -1,0 +1,30 @@
+.podbor{
+    text-align: center;
+    background-color: rgba(41, 41, 51, 1);
+    color: whitesmoke;
+    padding: 5rem 0;
+    background-image: url("../../images/Group12.png");
+    background-repeat: no-repeat;
+    background-size: contain; 
+
+    &__form{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        gap: 15px;
+
+        select{
+            outline: none;
+            width: 15%;
+            padding: 15px;
+            border-radius: 25px;
+        }
+        button{
+            background-color: rgba(182, 155, 137, 1);
+            color: whitesmoke;
+            padding: 16px 32px;
+            border: none;
+            border-radius: 25px;
+        }
+    }
+}

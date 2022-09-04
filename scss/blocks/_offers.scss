@@ -1,0 +1,39 @@
+.offers{
+    text-align: center;
+    background-color: rgba(246, 243, 241, 1);
+    padding: 2rem 0 5rem 0;
+
+    &__title{
+        font-weight: 500;
+        font-size: 30px;
+    }
+    &__card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+
+        &__box{
+            width: 15%;
+
+            img{
+                width: 100%;
+            }
+            h5{
+                font-size: 14px;
+                font-weight: 200;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 600;
+                span{
+                    opacity: 0.4;
+                    text-decoration: line-through;
+                }
+            }
+        }
+        &__box:hover{
+            width: 20%;
+        }
+    }
+}
