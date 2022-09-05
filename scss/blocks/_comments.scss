@@ -1,0 +1,51 @@
+.comments{
+    background-color: rgb(246, 243, 241);
+    padding: 5rem 0 7rem 0;
+    margin-bottom: 7rem;
+
+    &__title{
+        text-align: center;
+    }
+    &__card{
+        display: flex;
+        justify-content: center;
+        gap: 11px;
+        align-items: center;
+
+        &__box{
+            width: 40%;
+            background-color: white;
+            padding: 3rem;
+            position: relative;
+
+            p{
+                opacity: 0.6;
+                font-size: 14px;
+            }
+            h5{
+                font-size: 15px;
+            }
+            &__btn1{
+                position: absolute;
+                bottom: -10%;
+                right: 16%;
+                text-decoration: none;
+                color: whitesmoke;
+                background-color: rgb(41, 41, 51);
+                opacity: 0.5;
+                border-radius: 50%;
+                padding: 15px 20px;
+            }
+            &__btn2{
+                position: absolute;
+                bottom: -10%;
+                right: 7%;
+                text-decoration: none;
+                color: whitesmoke;
+                background-color: rgb(41, 41, 51);
+                border-radius: 50%;
+                padding: 15px 20px;
+            }
+        }
+    }
+}
