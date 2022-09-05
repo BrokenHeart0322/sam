@@ -1,10 +1,11 @@
 .insta{
     border: 2px solid rgba(182, 155, 137, 1);
+    border-right: none;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 3rem 0;
-    margin: 7%;
+    margin: 7% 0 7% 7%;
 
     &__box{
         // border: 1px solid;
